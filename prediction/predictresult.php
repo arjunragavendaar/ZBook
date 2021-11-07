@@ -481,6 +481,7 @@ for($i=0;$i<$j;$i++)
             $min=$temp;
             $val=$i;
         }
+        $inferredval=shell_exec("python projection.py $arr[$i] ");
         
     }
 }
