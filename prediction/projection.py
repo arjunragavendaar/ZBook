@@ -5,7 +5,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('C:/Users/amirthaa/Desktop/ZBook/dataset/zomato.csv',engine='python')
+df = pd.read_csv('/dataset/zomato.csv',engine='python')
 
 
 nan_values = df.isna()
